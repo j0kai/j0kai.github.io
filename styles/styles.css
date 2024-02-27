@@ -1,6 +1,68 @@
+
+/* Global Styling */
 body
 {
   margin: 0;
-  background: pink;
+  background: #f7f7f7;
   text-align: center;
+  font-family: Roboto;
+}
+
+/* Links */
+
+.links 
+{
+  align-items: center;
+}
+
+/* Contact Page */
+.contact-link-container 
+{
+  display: inline-block;
+  margin: 10px;
+}
+
+.contact-link:hover
+{
+
+}
+
+.contact-icon
+{
+  height: 40px;
+  border: none;
+}
+
+/* LinkedIn */
+.linkedin-link-container 
+{
+  display: inline-block;
+  margin: 10px;
+}
+
+.linkedin-link:hover
+{
+ 
+}
+
+.linkedin-icon 
+{
+  height: 40px;
+}
+
+/* GitHub */
+.github-link-container 
+{
+  display: inline-block;
+  margin: 10px;
+}
+
+.github-link:hover
+{
+
+}
+
+.github-icon 
+{
+  height: 40px;
 }
