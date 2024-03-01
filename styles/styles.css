@@ -2,67 +2,95 @@
 /* Global Styling */
 body
 {
-  margin: 0;
   background: #f7f7f7;
-  text-align: center;
-  font-family: Roboto;
+  font-family: Raleway;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
 }
 
-/* Links */
+.left-margin, .right-margin
+{
+  background: #f7f7f7;
+}
+
+.main-content
+{
+  text-align: center;
+}
+
+/* Intro Section */
+
+.main-heading
+{
+  margin-top: 100px;
+  text-align: left;
+  padding-left: 200px;
+  color: rgba(68, 68, 68, 0.8);
+
+}
+
+.intro
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text
+{
+  width: 600px;
+  font-size: 32px;
+  font-weight: 400;
+  color: rgba(68, 68, 68, 0.8);
+  text-align: left;
+  padding-left: 200px;
+}
+
+.intro-picture
+{
+  height: 300px;
+  border-radius: 150px;
+  position: relative;
+  right: 50px;
+}
+
+
+/* Links Section */
 
 .links 
 {
-  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
 }
 
-/* Contact Page */
-.contact-link-container 
+.link-container
 {
-  display: inline-block;
-  margin: 10px;
+  display: flex;
+  flex-direction: right;
+  justify-content: center;
+  position:relative;
+  right: 12px;
+  gap: 70px;
+  padding-bottom: 20px;
 }
 
-.contact-link:hover
+.contact-link,
+.linkedin-link,
+.github-link,
+.itchio-link
 {
-
+  color: #d44444;
+  font-weight: 600;
+  text-decoration: none;
+  transition: padding 0.15s border-bottom 0.15s;
 }
 
-.contact-icon
+.contact-link:hover,
+.linkedin-link:hover,
+.github-link:hover,
+.itchio-link:hover
 {
-  height: 40px;
-  border: none;
-}
-
-/* LinkedIn */
-.linkedin-link-container 
-{
-  display: inline-block;
-  margin: 10px;
-}
-
-.linkedin-link:hover
-{
- 
-}
-
-.linkedin-icon 
-{
-  height: 40px;
-}
-
-/* GitHub */
-.github-link-container 
-{
-  display: inline-block;
-  margin: 10px;
-}
-
-.github-link:hover
-{
-
-}
-
-.github-icon 
-{
-  height: 40px;
+  padding: 3px;
+  border-bottom: 2px solid #d44444;
 }
