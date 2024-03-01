@@ -3,7 +3,7 @@
 body
 {
   background: #f7f7f7;
-  font-family: Raleway;
+  font-family: Raleway, Arial;
   display: grid;
   grid-template-columns: 200px 1fr 200px;
 }
