@@ -18,6 +18,47 @@ body
   width: 100%;
 }
 
+@media screen and (max-width: 990px)
+{
+  .intro,
+  .background,
+  .skills,
+  .projects
+  {
+    flex-wrap: wrap;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .skills-content
+  {
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+}
+
+/* General Styles */
+
+.background,
+.skills,
+.projects
+{
+  display: flex;
+  flex-direction: right;
+  gap: 40px;
+  padding-left: 15%;
+  padding-right: 15%;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.section-heading
+{
+  font-size: 32px;
+  color: #d44444;
+  padding: 0px 20px 0px 20px;
+}
+
 /* Intro Section */
 
 .intro
@@ -38,7 +79,7 @@ body
   padding-left: 50px;
 }
 
-.intro-text
+.intro-content
 {
   width: 600px;
   font-size: 32px;
@@ -63,6 +104,81 @@ body
   bottom: 50px;
   right: 50px;
 }
+
+/* Background Section */
+
+.background-heading
+{
+  margin-top: 0px;
+  text-align: center;
+  position: relative;
+  right: 70px;
+}
+
+.background-list
+{
+  width: 600px;
+  text-align: left;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+
+li
+{
+ padding: 5px; 
+}
+
+/* Skills Section */
+.skills-heading
+{
+  margin-top: 0px;
+  position: relative;
+  right: 45px;
+}
+
+.skills-content
+{
+  display: flex;
+  flex-direction: right;
+  margin-top: 0px;
+  gap: 30px;
+  margin-left: 90px;
+}
+
+.skills-header
+{
+  margin-top: 0px;
+  color: #d44444;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#eng-frame-libs-header
+{
+  position: relative;
+  bottom: 18px;
+  margin-bottom: 18px;
+}
+
+.eng-frame-libs-list
+{
+  position: relative;
+  bottom: 18px;
+  margin-top: 0px;
+}
+
+ul
+{
+  padding-left: 20px;
+}
+
+/* Projects Section */
+.projects-heading
+{
+  margin-top: 0px;
+}
+
 
 
 /* Links Section */
