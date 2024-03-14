@@ -221,7 +221,7 @@ ul
   color: #d44444;
   font-weight: 600;
   text-decoration: none;
-  transition: padding 0.15s border-bottom 0.15s;
+  transition: border-bottom 0.1s;
 }
 
 .contact-link:hover,
@@ -229,7 +229,6 @@ ul
 .github-link:hover,
 .itchio-link:hover
 {
-  padding: 3px;
   border-bottom: 2px solid #d44444;
 }
 
