@@ -109,6 +109,12 @@ li
  padding: 5px; 
 }
 
+.bg-span
+{
+  font-weight: 700;
+  font-style: italic;
+}
+
 /* Skills Section */
 .skills-heading
 {
