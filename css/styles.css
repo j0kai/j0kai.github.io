@@ -93,15 +93,21 @@ body
   margin-top: 0px;
   text-align: center;
   position: relative;
-  right: 70px;
+  right: 50px;
+}
+
+.background-content
+{
+  width: 700px;
+  text-align: left;
+  margin-top: 0px;
+  padding-left: 20px;
 }
 
 .background-text
 {
-  width: 600px;
-  text-align: left;
   margin-top: 0px;
-  padding-left: 20px;
+  font-size: 18px;
 }
 
 li
@@ -130,6 +136,7 @@ li
   margin-top: 0px;
   gap: 30px;
   margin-left: 90px;
+  font-size: 18px;
 }
 
 .skills-header
@@ -158,6 +165,7 @@ li
 ul
 {
   padding-left: 20px;
+  list-style-type: "⬖";
 }
 
 /* Projects Section */
@@ -177,13 +185,14 @@ ul
 .project-img
 {
   height: 100%;
-  width: 600px;
+  width: 500px;
 }
 
 .project-desc
 {
   width: 300px;
   text-align: left;
+  font-size: 18px;
 }
 
 .link-arrow
@@ -252,10 +261,19 @@ ul
     justify-content: center;
   }
   
-  .intro-img,
-  .project-img
+  .intro-img
   {
     transform: scale(0.75);
+  }
+
+  .intro-para
+  {
+    text-align: center;
+  }
+
+  .project-img
+  {
+    transform: scale(0.6);
   }
 
   .section-heading
@@ -283,5 +301,10 @@ ul
   {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .link-container
+  {
+    flex-wrap: wrap;
   }
 }
