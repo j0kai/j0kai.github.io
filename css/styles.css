@@ -264,7 +264,7 @@ ul
   
   .intro-img
   {
-    transform: scale(0.75);
+    transform: scale(1);
   }
 
   .intro-para
@@ -275,7 +275,7 @@ ul
 
   .project-img
   {
-    transform: scale(0.6);
+    transform: scale(0.75);
   }
 
   .section-heading
