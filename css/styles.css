@@ -190,6 +190,14 @@ ul
   align-items: center;
 }
 
+.project-three
+{
+  display: flex;
+  flex-direction: right;
+  gap: 20px;
+  align-items: center;
+}
+
 .project-img
 {
   height: 100%;
